@@ -1,0 +1,30 @@
+body {
+    background-color: $background-primary;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: $font-color-primary;
+}
+
+input[type="text"] {
+    height: 2.5em;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.text-elipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.upper-text {
+    text-transform: uppercase; 
+}
+
+.mono-text {
+    font-family: monospace;
+}
